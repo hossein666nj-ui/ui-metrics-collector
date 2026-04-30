@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "metrics-collector-api",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/metrics" }
+  ],
+  "trailingSlash": false
+}
